@@ -11,7 +11,7 @@ protected function getCategoryTree($level = 0, $prefix = '') {
     
     if (count($rows) > 0) {
         foreach ($rows as $row) {
-          $category .= $prefix.$row->name;
+          $category .= $prefix.$row->name."\n";
           // Append subcategories
             $category .= $this->getCategoryTree($row->id, $prefix . '-');
           }
