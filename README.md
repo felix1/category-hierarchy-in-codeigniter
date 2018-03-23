@@ -6,6 +6,7 @@ For get category/menu in hierarchy , your category/menu table should be store da
 category table :
 
 ------------------------------------------------------
+
 id | name         | parent_id
 1  | School       | 0
 2  | College      | 0
@@ -17,6 +18,7 @@ id | name         | parent_id
 8  | MBA College  | 2
 9  | Class 10     | 4
 10 | HR           | 8
+
 ------------------------------------------------------
 
 # Output of the function 
